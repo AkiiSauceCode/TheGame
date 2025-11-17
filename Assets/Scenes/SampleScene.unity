@@ -179,7 +179,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 60
-    OrthographicSize: 4.294859
+    OrthographicSize: 3.83
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineFollow
   TrackerSettings:
-    BindingMode: 4
+    BindingMode: 3
     PositionDamping: {x: 1, y: 1, z: 1}
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
@@ -1960,7 +1960,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.294859
+  orthographic size: 3.83
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1985,7 +1985,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.09705, y: -0.26719, z: -10}
+  m_LocalPosition: {x: 1.5559711, y: -0.35733002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2308,6 +2308,7 @@ GameObject:
   - component: {fileID: 1544082580}
   - component: {fileID: 1544082586}
   - component: {fileID: 1544082587}
+  - component: {fileID: 1544082589}
   - component: {fileID: 1544082588}
   m_Layer: 0
   m_Name: Player
@@ -2396,6 +2397,7 @@ MonoBehaviour:
   facingdirection: 1
   rb: {fileID: 1544082581}
   anim: {fileID: 1544082587}
+  player_Combat: {fileID: 1544082589}
 --- !u!212 &1544082583
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2520,6 +2522,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   MaximumHealth: 10
   CurrentHealth: 5
+--- !u!114 &1544082589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544082579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71f337d834bcd74bb5cd54bf03a1420, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player_Combat
+  anim: {fileID: 1544082587}
+  cooldown: 0.5
 --- !u!1 &1575722887
 GameObject:
   m_ObjectHideFlags: 0
@@ -2601,8 +2617,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.04, y: 0.07, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.47, y: 1.47, z: 1.47}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
