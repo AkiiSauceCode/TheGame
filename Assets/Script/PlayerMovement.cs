@@ -10,6 +10,16 @@ public class PlayerMove : MonoBehaviour
     public Rigidbody2D rb;
     public Animator anim;
 
+    public Player_Combat player_Combat;
+
+    private void Update ()
+    {
+        if (Input.GetButtonDown("Slash"))
+        {
+            player_Combat.Attack();
+        }
+    }
+
 
 
  
