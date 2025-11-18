@@ -318,6 +318,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -325,10 +338,10 @@ TextureImporter:
       name: Torch_Yellow_0
       rect:
         serializedVersion: 2
-        x: 53
-        y: 827
-        width: 74
-        height: 79
+        x: 0
+        y: 768
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +360,10 @@ TextureImporter:
       name: Torch_Yellow_1
       rect:
         serializedVersion: 2
-        x: 243
-        y: 827
-        width: 75
-        height: 82
+        x: 192
+        y: 768
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -369,10 +382,10 @@ TextureImporter:
       name: Torch_Yellow_2
       rect:
         serializedVersion: 2
-        x: 436
-        y: 827
-        width: 74
-        height: 82
+        x: 384
+        y: 768
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,10 +404,10 @@ TextureImporter:
       name: Torch_Yellow_4
       rect:
         serializedVersion: 2
-        x: 630
-        y: 827
-        width: 72
-        height: 84
+        x: 768
+        y: 768
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,10 +426,10 @@ TextureImporter:
       name: Torch_Yellow_7
       rect:
         serializedVersion: 2
-        x: 829
-        y: 827
-        width: 65
-        height: 79
+        x: 0
+        y: 576
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,10 +448,10 @@ TextureImporter:
       name: Torch_Yellow_9
       rect:
         serializedVersion: 2
-        x: 1019
-        y: 827
-        width: 67
-        height: 81
+        x: 384
+        y: 576
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,10 +470,10 @@ TextureImporter:
       name: Torch_Yellow_10
       rect:
         serializedVersion: 2
-        x: 1208
-        y: 827
-        width: 71
-        height: 89
+        x: 576
+        y: 576
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,10 +492,10 @@ TextureImporter:
       name: Torch_Yellow_12
       rect:
         serializedVersion: 2
-        x: 28
-        y: 635
-        width: 99
-        height: 73
+        x: 960
+        y: 576
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -501,10 +514,10 @@ TextureImporter:
       name: Torch_Yellow_14
       rect:
         serializedVersion: 2
-        x: 225
-        y: 635
-        width: 94
-        height: 76
+        x: 192
+        y: 384
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,10 +536,10 @@ TextureImporter:
       name: Torch_Yellow_16
       rect:
         serializedVersion: 2
-        x: 417
-        y: 635
-        width: 92
-        height: 73
+        x: 576
+        y: 384
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -545,10 +558,10 @@ TextureImporter:
       name: Torch_Yellow_18
       rect:
         serializedVersion: 2
-        x: 604
-        y: 635
-        width: 102
-        height: 73
+        x: 960
+        y: 384
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -567,10 +580,10 @@ TextureImporter:
       name: Torch_Yellow_20
       rect:
         serializedVersion: 2
-        x: 801
-        y: 635
-        width: 95
-        height: 76
+        x: 192
+        y: 192
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -589,10 +602,10 @@ TextureImporter:
       name: Torch_Yellow_22
       rect:
         serializedVersion: 2
-        x: 993
-        y: 635
-        width: 92
-        height: 73
+        x: 576
+        y: 192
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -611,10 +624,10 @@ TextureImporter:
       name: Torch_Yellow_23
       rect:
         serializedVersion: 2
-        x: 419
-        y: 443
-        width: 90
-        height: 109
+        x: 768
+        y: 192
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -633,10 +646,10 @@ TextureImporter:
       name: Torch_Yellow_27
       rect:
         serializedVersion: 2
-        x: 44
-        y: 443
-        width: 80
-        height: 94
+        x: 384
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -655,10 +668,10 @@ TextureImporter:
       name: Torch_Yellow_28
       rect:
         serializedVersion: 2
-        x: 63
-        y: 533
-        width: 6
-        height: 6
+        x: 576
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -677,10 +690,10 @@ TextureImporter:
       name: Torch_Yellow_29
       rect:
         serializedVersion: 2
-        x: 231
-        y: 443
-        width: 86
-        height: 102
+        x: 768
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -696,13 +709,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_Yellow_31
+      name: Torch_Yellow_3
       rect:
         serializedVersion: 2
-        x: 631
-        y: 442
-        width: 121
-        height: 99
+        x: 576
+        y: 768
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -711,20 +724,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f10dfc34f46e2843bd7240966616391
-      internalID: -1470961242
+      spriteID: 7789c8d9953724f4a8f025d52cd123a2
+      internalID: 1750288078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_Yellow_38
+      name: Torch_Yellow_5
       rect:
         serializedVersion: 2
-        x: 840
-        y: 441
-        width: 103
-        height: 68
+        x: 960
+        y: 768
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -733,20 +746,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72587c4735254a147a2efb5faf257180
-      internalID: -892394343
+      spriteID: a9f264b2d1442e441959b9fe5727ee97
+      internalID: -1867071904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_Yellow_39
+      name: Torch_Yellow_6
       rect:
         serializedVersion: 2
-        x: 1031
-        y: 443
-        width: 81
-        height: 68
+        x: 1152
+        y: 768
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -755,20 +768,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60fd7f605e22e2844adbac531dd8b1c3
-      internalID: 1733659742
+      spriteID: 874f5ff0b407e6d45923cf863e9eb497
+      internalID: -789709988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_Yellow_43
+      name: Torch_Yellow_8
       rect:
         serializedVersion: 2
-        x: 47
-        y: 251
-        width: 79
-        height: 80
+        x: 192
+        y: 576
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -777,20 +790,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89b79c00aec28a246b240a06bce3b304
-      internalID: -1979774425
+      spriteID: b23927cc4b0f3b04cb737daac1d9a94e
+      internalID: 2045600309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_Yellow_44
+      name: Torch_Yellow_11
       rect:
         serializedVersion: 2
-        x: 233
-        y: 251
-        width: 86
-        height: 84
+        x: 768
+        y: 576
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -799,20 +812,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11f6f3ab3fd173d45bdd2080bbf0782c
-      internalID: 306267708
+      spriteID: 273c0320147c6ec45a80e1256656a59b
+      internalID: 1325359867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_Yellow_45
+      name: Torch_Yellow_13
       rect:
         serializedVersion: 2
-        x: 422
-        y: 251
-        width: 89
-        height: 88
+        x: 0
+        y: 384
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -821,20 +834,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acb82308922e5324fa6b999b81541e4e
-      internalID: -1887312552
+      spriteID: d57014042cfefae46a549c69032d2ce6
+      internalID: -1750567873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_Yellow_50
+      name: Torch_Yellow_15
       rect:
         serializedVersion: 2
-        x: 618
-        y: 221
-        width: 111
-        height: 95
+        x: 384
+        y: 384
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -843,20 +856,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dbd07f82882dad44bd3244cef6c2c0f
-      internalID: -1677133293
+      spriteID: e9ca90dfde2b6134ca739fb79075fb8f
+      internalID: -716749794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_Yellow_52
+      name: Torch_Yellow_17
       rect:
         serializedVersion: 2
-        x: 820
-        y: 215
-        width: 105
-        height: 101
+        x: 768
+        y: 384
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -865,20 +878,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a0ceaf4537463b4b880ef5e9f3b8d48
-      internalID: 1005831072
+      spriteID: 58040a841e2f6e643b642a479d0e1830
+      internalID: 349584986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_Yellow_53
+      name: Torch_Yellow_19
       rect:
         serializedVersion: 2
-        x: 1027
-        y: 245
-        width: 91
-        height: 74
+        x: 0
+        y: 192
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -887,20 +900,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c32c4381b6679cc47829d30bad265ced
-      internalID: -915463722
+      spriteID: e582160c56665ef4ebe9abb3d8805979
+      internalID: -1897442184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_Yellow_61
+      name: Torch_Yellow_21
       rect:
         serializedVersion: 2
-        x: 589
-        y: 61
-        width: 139
-        height: 92
+        x: 384
+        y: 192
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -909,20 +922,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33017dafa03fc6242993b4772eeaf96d
-      internalID: 1684777997
+      spriteID: f9c9b75b3dcb8a742ad24da3b4903ed6
+      internalID: -1529677087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_Yellow_62
+      name: Torch_Yellow_24
       rect:
         serializedVersion: 2
-        x: 781
-        y: 60
-        width: 107
-        height: 96
+        x: 960
+        y: 192
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -931,20 +944,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c09e36bf815777489096940b952e8c9
-      internalID: 1098794122
+      spriteID: af64307fe8337254fa51016c3c081249
+      internalID: -322521374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_Yellow_66
+      name: Torch_Yellow_25
       rect:
         serializedVersion: 2
-        x: 68
-        y: 59
-        width: 91
-        height: 75
+        x: 0
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -953,20 +966,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 873a372e5b23c314d96779930cd6a443
-      internalID: -2142571516
+      spriteID: 048aeb0d4973b694084744f4c3b982e0
+      internalID: 1866087981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_Yellow_67
+      name: Torch_Yellow_26
       rect:
         serializedVersion: 2
-        x: 257
-        y: 44
-        width: 94
-        height: 91
+        x: 192
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -975,20 +988,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30509eee8c3b40a4589d873e510054fb
-      internalID: 870013051
+      spriteID: 10a9858e7854ced4ba610f03a82a24ef
+      internalID: 1639071431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_Yellow_68
+      name: Torch_Yellow_30
       rect:
         serializedVersion: 2
-        x: 449
-        y: 41
-        width: 91
-        height: 94
+        x: 960
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -997,30 +1010,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da41412dc7733584b8651f6e6b3ac803
-      internalID: -1423713084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Torch_Yellow_70
-      rect:
-        serializedVersion: 2
-        x: 975
-        y: 59
-        width: 116
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f21c305543074a747aba39194db60bf0
-      internalID: -1520445816
+      spriteID: c165d8ab0955e944f948f8b68bde17cd
+      internalID: 1752748815
       vertices: []
       indices: 
       edges: []
@@ -1039,7 +1030,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":5.0},"gridSpriteSize":{"x":224.0,"y":192.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":50.0,"y":50.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":5.0},"gridSpriteSize":{"x":192.0,"y":192.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
       - key: SpriteEditor.SliceOnImport
         value: False
     nameFileIdTable:
@@ -1067,55 +1058,11 @@ TextureImporter:
       Torch_Yellow_28: 1893064003
       Torch_Yellow_29: 978257544
       Torch_Yellow_3: 1750288078
-      Torch_Yellow_30: 2043391509
-      Torch_Yellow_31: -1470961242
-      Torch_Yellow_32: -1274980131
-      Torch_Yellow_33: 1650988996
-      Torch_Yellow_34: 307927502
-      Torch_Yellow_35: 675265267
-      Torch_Yellow_36: -623730508
-      Torch_Yellow_37: 270165621
-      Torch_Yellow_38: -892394343
-      Torch_Yellow_39: 1733659742
+      Torch_Yellow_30: 1752748815
       Torch_Yellow_4: -1653513409
-      Torch_Yellow_40: -443165781
-      Torch_Yellow_41: -2098142089
-      Torch_Yellow_42: -74017598
-      Torch_Yellow_43: -1979774425
-      Torch_Yellow_44: 306267708
-      Torch_Yellow_45: -1887312552
-      Torch_Yellow_46: 1192813406
-      Torch_Yellow_47: 1732200015
-      Torch_Yellow_48: 1301474561
-      Torch_Yellow_49: -1866833078
       Torch_Yellow_5: -1867071904
-      Torch_Yellow_50: -1677133293
-      Torch_Yellow_51: -988778492
-      Torch_Yellow_52: 1005831072
-      Torch_Yellow_53: -915463722
-      Torch_Yellow_54: -253129207
-      Torch_Yellow_55: -847915367
-      Torch_Yellow_56: 760087594
-      Torch_Yellow_57: 408012006
-      Torch_Yellow_58: 449463006
-      Torch_Yellow_59: -1212337393
       Torch_Yellow_6: -789709988
-      Torch_Yellow_60: 501137088
-      Torch_Yellow_61: 1684777997
-      Torch_Yellow_62: 1098794122
-      Torch_Yellow_63: 1119976324
-      Torch_Yellow_64: -1369422582
-      Torch_Yellow_65: 37836516
-      Torch_Yellow_66: -2142571516
-      Torch_Yellow_67: 870013051
-      Torch_Yellow_68: -1423713084
-      Torch_Yellow_69: -1345872325
       Torch_Yellow_7: -2060769039
-      Torch_Yellow_70: -1520445816
-      Torch_Yellow_71: 379209876
-      Torch_Yellow_72: 1781103093
-      Torch_Yellow_73: -957124765
-      Torch_Yellow_74: -1004630131
       Torch_Yellow_8: 2045600309
       Torch_Yellow_9: 661230473
   mipmapLimitGroupName: 
