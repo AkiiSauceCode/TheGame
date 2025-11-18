@@ -5888,6 +5888,37 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &391608821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 391608822}
+  m_Layer: 8
+  m_Name: Attackpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &391608822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391608821}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.41, y: -0.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1544082584}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &485658706
 GameObject:
   m_ObjectHideFlags: 0
@@ -6754,7 +6785,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 391608822}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1544082586
@@ -6822,6 +6854,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d71f337d834bcd74bb5cd54bf03a1420, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player_Combat
+  attackpoint: {fileID: 391608822}
+  weaponrange: 0.7
+  enemylayer:
+    serializedVersion: 2
+    m_Bits: 8
+  damage: 1
   anim: {fileID: 1544082587}
   cooldown: 1
 --- !u!1 &1575722887
@@ -8664,7 +8702,8 @@ GameObject:
   - component: {fileID: 2145470969}
   - component: {fileID: 2145470970}
   - component: {fileID: 2145470971}
-  m_Layer: 0
+  - component: {fileID: 2145470972}
+  m_Layer: 3
   m_Name: Enemy Torch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8846,7 +8885,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   damage: 1
   attactPoint: {fileID: 1071938900}
-  weaponRange: 1.3
+  weaponRange: 0.8
+  knockbackforce: 10
+  stuntime: 0.2
   playerLayer:
     serializedVersion: 2
     m_Bits: 256
@@ -8906,6 +8947,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.5600703, y: 0}
   m_Radius: 1.3869073
+--- !u!114 &2145470972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145470963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49dd0bbf3eb55804db7aa8189482e7fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy_Health
+  Maxhealth: 10
+  CurrentHealth: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
