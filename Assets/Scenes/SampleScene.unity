@@ -2541,11 +2541,12 @@ GameObject:
   - component: {fileID: 1544082581}
   - component: {fileID: 1544082580}
   - component: {fileID: 1544082586}
+  - component: {fileID: 1544082589}
   - component: {fileID: 1544082587}
   - component: {fileID: 1544082588}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2630,6 +2631,7 @@ MonoBehaviour:
   facingdirection: 1
   rb: {fileID: 1544082581}
   anim: {fileID: 1544082587}
+  player_Combat: {fileID: 1544082589}
 --- !u!212 &1544082583
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2756,6 +2758,20 @@ MonoBehaviour:
   CurrentHealth: 10
   healthtext: {fileID: 842784624}
   Healthtextanim: {fileID: 842784626}
+--- !u!114 &1544082589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544082579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71f337d834bcd74bb5cd54bf03a1420, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player_Combat
+  anim: {fileID: 1544082587}
+  cooldown: 1
 --- !u!1 &1575722887
 GameObject:
   m_ObjectHideFlags: 0
@@ -3344,6 +3360,8 @@ GameObject:
   - component: {fileID: 2145470965}
   - component: {fileID: 2145470964}
   - component: {fileID: 2145470969}
+  - component: {fileID: 2145470970}
+  - component: {fileID: 2145470971}
   m_Layer: 0
   m_Name: Enemy Torch
   m_TagString: Untagged
@@ -3377,7 +3395,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 4
 --- !u!70 &2145470965
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3523,6 +3541,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   damage: 1
+--- !u!114 &2145470970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145470963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a09a6b328fed39b4bbbbb1f92f003cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy_Movement
+  speed: 3
+--- !u!58 &2145470971
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145470963}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.81780666, y: 0}
+  m_Radius: 2.1450276
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
